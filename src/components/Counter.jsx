@@ -5,12 +5,15 @@ function Counter() {
     const[count,setcount]=useState(1)
     function changeCount(){
         setcount(count+1)
-
+    }
+    function decreaseCount(){
+        setcount(count-1)
     }
   return (
     <div>
         <p>{count}</p>
-        <button onClick={changeCount}>Click</button>
+        <button onClick={changeCount}>+</button>
+        <button onClick={decreaseCount}>-</button>
     </div>
   )
 }
