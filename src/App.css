@@ -220,3 +220,24 @@ img{
   box-shadow: 140px -140px #cc3f47;
   background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
 }
+
+.cardcontainer{
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid;
+  justify-content: space-around;
+}
+
+.wrapper{
+  width: 200px;
+  height: 200px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 30px 30px 30px 30px;
+}
+
